@@ -1,0 +1,42 @@
+/* Estilo de la tabla */
+.tabla-personas {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .tabla-personas th, .tabla-personas td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .tabla-personas th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilo de los botones */
+  .boton-editar, .boton-eliminar, .boton-agregar {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .boton-editar {
+    background-color: #2196F3;
+  }
+  
+  .boton-eliminar {
+    background-color: #f44336;
+  }
+  
+  .boton-agregar {
+    background-color: #008CBA;
+  }

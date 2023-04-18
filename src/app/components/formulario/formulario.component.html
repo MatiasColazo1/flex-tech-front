@@ -1,0 +1,30 @@
+<table class="tabla-personas">
+    <thead>
+      <tr>
+        <th>Apellido</th>
+        <th>Nombre</th>
+        <th>Fecha Nacimiento</th>
+        <th>Dirección</th>
+        <th>Teléfono</th>
+        <th>País</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let persona of personas">
+          <td>{{ persona.apellido }}</td>
+          <td>{{ persona.nombre }}</td>
+          <td>{{ persona.fecha | date: 'dd/MM/yyyy' }}</td>
+          <td>{{ persona.direccion }}</td>
+          <td>{{ persona.telefono }}</td>
+          <td>{{ persona.pais }}</td>
+          <td>
+            <button class="boton-editar" (click)="editar(persona)">Editar</button>
+            <button class="boton-eliminar"(click)="eliminar(persona)">Eliminar</button>
+          </td>
+        </tr>
+       
+    </tbody>
+  </table>
+
+  
+<button class="boton-agregar" (click)="agregarPersona()">Agregar</button>
