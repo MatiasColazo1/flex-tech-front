@@ -8,6 +8,8 @@ import { FormularioComponent } from './components/formulario/formulario.componen
 import { FormsModule } from '@angular/forms';
 import { EditarComponent } from './components/editar/editar.component';
 import { NuevoComponent } from './components/nuevo/nuevo.component';
+import { MostrarComponent } from './components/mostrar/mostrar.component';
+import { PaisComponent } from './components/pais/pais.component';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { NuevoComponent } from './components/nuevo/nuevo.component';
     AppComponent,
     FormularioComponent,
     EditarComponent,
-    NuevoComponent
+    NuevoComponent,
+    MostrarComponent,
+    PaisComponent
   ],
   imports: [
     BrowserModule,

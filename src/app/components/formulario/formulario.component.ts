@@ -24,6 +24,9 @@ export class FormularioComponent implements OnInit {
   agregarPersona() {
     this.router.navigate(["add"]);
   }
+  filtro() {
+    this.router.navigate(["filtro"]);
+  }
 
   editar(personas: Persona): void {
     localStorage.setItem("id", personas.id.toString());

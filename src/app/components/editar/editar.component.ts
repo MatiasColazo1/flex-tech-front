@@ -33,7 +33,7 @@ export class EditarComponent implements OnInit {
       .subscribe(data => {
         this.persona = data;
         alert("Se Actualizo con Exito...!!!");
-        this.router.navigate(['']);
+        this.router.navigate(['mostrar']);
       })
   }
 

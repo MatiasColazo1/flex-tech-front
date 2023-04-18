@@ -1,4 +1,5 @@
-<table class="tabla-personas">
+<div class="table-responsive">
+<table class="table tabla-personas">
     <thead>
       <tr>
         <th>Apellido</th>
@@ -26,5 +27,13 @@
     </tbody>
   </table>
 
-  
-<button class="boton-agregar" (click)="agregarPersona()">Agregar</button>
+
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <button class="boton-agregar btn btn-primary btn-block" (click)="agregarPersona()">Agregar</button>
+  </div>
+  <div class="col-md-6">
+    <button class="boton-agregar btn btn-secondary btn-block" (click)="filtro()">Filtrar por país</button>
+  </div>
+</div>
