@@ -1,0 +1,40 @@
+.form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="number"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 50%;
+  }
+
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  form {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="number"],
+  button {
+    display: block;
+    margin: 0 auto;
+  }
